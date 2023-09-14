@@ -1,0 +1,131 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+    background-color: #FFF;
+}
+
+h2,h3,h4,h5,h6 {
+    color: #2E2F42;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo */
+.logo-link {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-black {
+    color: #2E2F42;
+}
+.logo-white {
+    color: #F4F4FD;
+}
+
+/* Menu header */
+.header-menu-link {
+    font-weight: 500;
+    color: #2E2F42;
+}
+.header-menu-link:hover, 
+.header-menu-link:focus {
+    color: #404BBF;
+}
+
+/* Contacts header */
+.address {
+    font-style: normal;
+}
+.address-link {
+    color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+/* Section 1 */
+.hero-image {
+    background-color: #2E2F42;
+}
+
+.hero-image-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFF;
+}
+
+.hero-image-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-image-button:hover,
+.hero-image-button:focus {
+    background-color: #404BBF;
+}
+
+/* Section 2 */
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* Section 3 */
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    text-align: center;
+    line-height: 1.11;
+}
+
+.team-speciality {
+    background-color: #FFF;
+}
+
+/* Section 4 */
+.portfolio-title {
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
