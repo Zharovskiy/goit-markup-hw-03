@@ -102,13 +102,13 @@ img {
 .header-menu-nav {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-link {
     font-weight: 500;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-link:hover, 
 .header-menu-link:focus {
@@ -120,11 +120,6 @@ img {
     font-style: normal;
 }
 
-.address-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .address ul {
     display: flex;
     gap: 40px;
@@ -133,6 +128,8 @@ img {
 .address-link {
     color: #434455;
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address-link:hover,
 .address-link:focus {
@@ -191,6 +188,9 @@ img {
 .advantages-list {
     display: flex;
     gap: 24px;
+}
+
+.advantages-list-items {
     width: calc((100%-24px*3)/4);
 }
 
@@ -277,6 +277,7 @@ img {
 
 .footer .logo-link {
     margin-bottom: 16px;
+    display: block;
 }
 
 .footer .text {
