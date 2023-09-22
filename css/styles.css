@@ -19,12 +19,34 @@ h2 {
     text-transform: capitalize;
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
 ul, ol {
 	list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 156px;
+    border-bottom: 1px solid #E7E9FC;
+    background-color: #FFF;
 }
 
 /* Logo */
@@ -36,6 +58,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 .logo-black {
     color: #2E2F42;
@@ -45,6 +68,16 @@ a {
 }
 
 /* Menu header */
+.header-menu {
+    display: flex; 
+    flex-grow: 1;
+}
+
+.header-menu-nav {
+    display: flex;
+    gap: 40px;
+}
+
 .header-menu-link {
     font-weight: 500;
     color: #2E2F42;
@@ -58,8 +91,15 @@ a {
 .address {
     font-style: normal;
 }
+
+.address ul {
+    display: flex;
+    gap: 40px;
+}
+
 .address-link {
     color: #434455;
+    display: flex;
 }
 .address-link:hover,
 .address-link:focus {
@@ -69,6 +109,7 @@ a {
 /* Section 1 */
 .hero-image {
     background-color: #2E2F42;
+    padding: 188px 472px;
 }
 
 .hero-image-title {
@@ -78,6 +119,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFF;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-image-button {
@@ -97,6 +140,12 @@ a {
 }
 
 /* Section 2 */
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: 1px solid black;
+}
+
 .title {
     font-size: 20px;
     font-weight: 500;
