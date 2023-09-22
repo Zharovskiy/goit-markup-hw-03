@@ -277,7 +277,7 @@ img {
 
 .footer .logo-link {
     margin-bottom: 16px;
-    display: block;
+    display: inline-block;
 }
 
 .footer .text {
