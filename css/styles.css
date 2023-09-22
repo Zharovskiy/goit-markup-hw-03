@@ -35,9 +35,15 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
 .container {
-    width: 1440px;
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 /* Header */
@@ -141,15 +147,19 @@ a {
 
 /* Section 2 */
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    border: 1px solid black;
+    padding: 120px 156px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
 }
 
 .title {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 /* Section 3 */
@@ -160,10 +170,22 @@ a {
 .team-title {
     text-align: center;
     line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-speciality {
     background-color: #FFF;
+    padding-bottom: 32px;
+}
+
+.team-speciality .title,
+.team-speciality .text {
+    text-align: center;
 }
 
 /* Section 4 */
@@ -171,10 +193,30 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    width: calc((100%-48px)/3);
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-list-items {
+    border: 1px solid #E7E9FC;
 }
 
 /* Footer */
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding-top: 101px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+
+.footer .text {
+    margin-top: 17px;
 }
