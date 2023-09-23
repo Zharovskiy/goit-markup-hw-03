@@ -39,6 +39,7 @@ a {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 .container { 
@@ -84,6 +85,7 @@ img {
     color: #4D5AE5;
     display: block;
     margin-right: 76px;
+    border: 1px solid red;
 }
 .logo-black {
     color: #2E2F42;
@@ -109,6 +111,7 @@ img {
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
+    border: 1px solid red;
 }
 .header-menu-link:hover, 
 .header-menu-link:focus {
@@ -130,6 +133,7 @@ img {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    border: 1px solid red;
 }
 .address-link:hover,
 .address-link:focus {
