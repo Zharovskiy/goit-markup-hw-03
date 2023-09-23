@@ -220,7 +220,7 @@ img {
 }
 
 .team-speciality {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
