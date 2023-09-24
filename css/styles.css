@@ -85,6 +85,8 @@ img {
     color: #4D5AE5;
     display: block;
     margin-right: 76px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 .logo-black {
     color: #2E2F42;
@@ -97,7 +99,6 @@ img {
 .header-menu {
     display: flex; 
     flex-grow: 1;
-    align-items: center
 }
 
 .header-menu-nav {
